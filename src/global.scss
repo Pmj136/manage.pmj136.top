@@ -1,0 +1,72 @@
+$app-main-bg-color: #eee;
+
+$app-header-height: 3.6rem;
+$app-aside-width: 210px;
+
+$gap: 26px;
+
+.el-table th.gutter{
+   display: table-cell !important;
+}
+/*card*/
+.jiu-card {
+   background-color: #fff;
+   margin: 15px 0;
+   box-sizing: border-box;
+   border-radius: 4px;
+}
+
+.jiu-card-header {
+   padding: 14px 20px;
+   box-sizing: border-box;
+   border-bottom: 1px solid #EBEEF5;
+}
+
+.jiu-card-header--text {
+   font-size: 0.96rem;
+   user-select: none;
+}
+
+.jiu-card-body {
+   padding: 20px;
+   box-sizing: border-box;
+}
+/**/
+
+.tools {
+   margin-bottom: 16px;
+   padding: 12px 20px;
+   box-sizing: border-box;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+}
+
+.user-expand {
+   font-size: 0;
+}
+
+.user-expand label {
+   width: 90px;
+   color: #99a9bf;
+}
+
+.user-expand .el-form-item {
+   margin-right: 0;
+   margin-bottom: 0;
+   width: 50%;
+   color: #22a4c4;
+}
+
+::v-deep .el-table__empty-block {
+   padding: 100px 0;
+   box-sizing: border-box;
+}
+
+.pagination-wrap {
+   background-color: #fff;
+   padding: 10px 0;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+}
